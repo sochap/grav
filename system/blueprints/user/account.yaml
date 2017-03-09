@@ -37,7 +37,7 @@ form:
                 validate:
                   required: false
                   message: PLUGIN_ADMIN.PASSWORD_VALIDATION_MESSAGE
-                  pattern: '(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'
+                  pattern: '.*'
 
             fullname:
                 type: text
